@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+   background-image: url("coding.jpg");
+   width: 100%;
+    position: relative;
+    padding-bottom: 70vh;
+    background-repeat: no-repeat;
+    
+}
+.list{
+    display: flex;
+    padding: 10px;
+    float: right;
+    font-size: 30px;
+     margin-left: 900px;
+     font-weight: 700;
+     background-image: black solid ;
+}
+.list li{
+    list-style: none;
+    padding: 15px;
+}
+.name{
+    color: orangered;
+    padding: 40px;
+}
+#btn1{
+    border-radius: 20px;
+    height: 55px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: #23A6F0;
+}
+.About{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+}
