@@ -3,16 +3,12 @@
 }
 
 .container{
-   background-image: url("coding.jpg");
-   width: 100%;
-    position: relative;
-    padding-bottom: 70vh;
-    background-repeat: no-repeat;
+    background-color: aliceblue;
+    
     
 }
 .list{
     display: flex;
-    padding: 10px;
     float: right;
     font-size: 30px;
      margin-left: 900px;
@@ -39,6 +35,9 @@
     text-align: center;
     font-size: 45px;
     color: black;
+    margin-top: 450px;
+    background-color: azure;
+
 }
 #span{
     color: orange;
@@ -46,16 +45,39 @@
 .container2{
     display: flex;
     padding: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    height: 600px;
 }
 .imageburger{
     height: 75px;
     padding: 20px;
 }
 .image{
-    height: 275px;
+    height: 555px;
+    margin-left: 200px;
+    width: 400px;
 }
 #heading{
     color: orange;
     text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.burgersite{
+    margin-right: 400px;
+    border: black;
+    border-radius: 20px;
+    font-size: 35px;
+    width: 600px;
+
+}
+#btn2{
+    border-radius: 20px;
+    height: 55px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: #23A6F0;
+    align-content: center;
 }
