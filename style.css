@@ -40,3 +40,22 @@
     font-size: 45px;
     color: black;
 }
+#span{
+    color: orange;
+}
+.container2{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.imageburger{
+    height: 75px;
+    padding: 20px;
+}
+.image{
+    height: 275px;
+}
+#heading{
+    color: orange;
+    text-align: center;
+}
