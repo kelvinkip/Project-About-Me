@@ -1,11 +1,33 @@
 *{
     box-sizing: border-box;
 }
+body {
+	animation: fadeInAnimation ease 3s
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 
 .container{
     background-color: aliceblue;
-    
-    
+    width: 100%;
+    background-image: url("coding.jpg");
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 60vh;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    object-fit: cover; */
+
 }
 .list{
     display: flex;
@@ -13,11 +35,12 @@
     font-size: 30px;
      margin-left: 900px;
      font-weight: 700;
-     background-image: black solid ;
+     width: 100%;
 }
 .list li{
     list-style: none;
     padding: 15px;
+    float: left;
 }
 .name{
     color: orangered;
@@ -34,9 +57,8 @@
 .About{
     text-align: center;
     font-size: 45px;
-    color: purple;
+    color: white;
     margin-top: 450px;
-    background-color: azure;
 
 }
 #span{
@@ -64,6 +86,9 @@
     padding-bottom: 50px;
     padding-top: 150px;
     font-size: 40px;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: -10s;
     
 }
 .burgersite{
@@ -75,6 +100,15 @@
 
 }
 #btn2{
+    border-radius: 20px;
+    height: 55px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    background-color: #23A6F0;
+    align-content: center;
+}
+#btn3{
     border-radius: 20px;
     height: 55px;
     width: 25%;
