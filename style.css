@@ -166,3 +166,11 @@ body {
     width: 100%;
     margin-left: 125px;
 }
+.me{
+    color: white;
+    font-size: 15px;
+}
+.me p{
+    font-size: 35px;
+    align-content: center;
+}
