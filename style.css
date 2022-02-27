@@ -173,4 +173,15 @@ body {
 .me p{
     font-size: 35px;
     align-content: center;
+    margin-left: 200px;
+}
+.hobbies{
+    margin-left: 300px;
+    font-size: 40px;
+    color: brown;
+
+}
+.hobbies h3{
+    color: red;
+    font-size: 55px;
 }
