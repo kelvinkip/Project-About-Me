@@ -133,6 +133,7 @@ body {
     
 }
 #student{
-  height: 110px;
-  width: 120px;
+  height: 150px;
+  width: 145px;
+  align-content: center;
 }
