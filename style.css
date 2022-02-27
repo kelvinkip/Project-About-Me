@@ -83,6 +83,15 @@ body {
 	animation-iteration-count: 4s;
 	animation-fill-mode: forwards;
 }
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 4;
+	}
+}
 .imageburger{
     height: 75px;
     padding: 20px;
