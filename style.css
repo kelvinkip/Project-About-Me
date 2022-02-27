@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-	animation: fadeInAnimation ease 3s
+	animation: fadeInAnimation ease 3s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
 }
@@ -30,21 +30,26 @@ body {
 
 }
 .list{
-    display: flex;
     float: right;
     font-size: 30px;
-     margin-left: 900px;
      font-weight: 700;
      width: 100%;
+     margin-left: 900px;
+     color: black;
 }
 .list li{
     list-style: none;
     padding: 15px;
     float: left;
 }
-.name{
+.myName{
     color: orangered;
-    padding: 40px;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+
 }
 #btn1{
     border-radius: 20px;
@@ -60,6 +65,9 @@ body {
     color: white;
     margin-top: 450px;
 
+}
+.About span{
+    color: orange;
 }
 #span{
     color: orange;
