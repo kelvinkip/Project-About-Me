@@ -76,7 +76,7 @@ body {
     display: flex;
     padding: 30px;
     justify-content: space-evenly;
-    background-color: whitesmoke;
+    background-color: black;
     height: 600px;
 }
 .imageburger{
@@ -86,7 +86,7 @@ body {
 .image{
     height: 555px;
     margin-left: 200px;
-    width: 400px;
+    width: 750px;
 }
 #heading{
     color: orange;
@@ -97,17 +97,19 @@ body {
     animation-name: example;
     animation-duration: 6s;
     animation-delay: -10s;
+    background-color: whitesmoke;
     
 }
 .burgersite{
-    margin-right: 350px;
     border: black;
     border-radius: 20px;
     font-size: 35px;
     width: 600px;
-    border: 2px solid black;
+    border: 2px solid whitesmoke;
     border-radius: 10px;
     align-content: center;
+    color: white;
+    justify-content: space-evenly;
 
 }
 #btn2{
