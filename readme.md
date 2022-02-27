@@ -13,7 +13,7 @@ This a simple Site About me and the some of the projects i have done since i joi
 
 ## How To Access Our Site
 
-it's just simple how to access our site, all you need to have is just internet connection, a browser and you are good to go. access our site and click that order button and we wil be on our door step.
+it's just simple how to access our site, all you need to have is just internet connection, a browser and you are good to go. access my site and know more bout me and projects i have done.
 
 ## Technolgy used
 
