@@ -76,7 +76,7 @@ body {
     display: flex;
     padding: 30px;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: whitesmoke;
     height: 600px;
     height: 50%;
     animation: fadeInAnimation ease 6s;
@@ -124,17 +124,32 @@ body {
     animation-delay: -10s;
     background-color: whitesmoke;
 }
+#heading3{
+    color: orange;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    font-size: 40px;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-delay: -10s;
+    background-color: whitesmoke;
+}
 .burgersite{
-    border: black;
+    border: gray;
     border-radius: 20px;
     font-size: 35px;
     width: 600px;
-    border: 2px solid whitesmoke;
+    border: 2px solid black;
     border-radius: 10px;
     align-content: center;
-    color: white;
+    color: black;
     justify-content: space-evenly;
+    text-align: center;
 
+}
+#li{
+    color: green;
 }
 #btn2{
     border-radius: 20px;
@@ -194,3 +209,21 @@ body {
     color: red;
     font-size: 55px;
 }
+#icon{
+    height: 20%;
+    width: 15%;
+}
+.contacts{
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+}
+.subscribe{
+    display: flex;
+}
+/* #sub{
+    border-radius: 10px;
+    /* height: 20px; */
+    /* width: 10px;
+} */
