@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 body {
-	animation: fadeInAnimation ease 3s;
-	animation-iteration-count: 1;
+	animation: fadeInAnimation ease 6s;
+	animation-iteration-count: 4s;
 	animation-fill-mode: forwards;
 }
 
@@ -34,7 +34,7 @@ body {
     font-size: 30px;
      font-weight: 700;
      width: 100%;
-     margin-left: 900px;
+     margin-left: 1300px;
      color: black;
 }
 .list li{
@@ -63,7 +63,7 @@ body {
     text-align: center;
     font-size: 45px;
     color: white;
-    margin-top: 450px;
+    margin-top: 250px;
 
 }
 .About span{
@@ -105,23 +105,34 @@ body {
     border-radius: 20px;
     font-size: 35px;
     width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    align-content: center;
 
 }
 #btn2{
     border-radius: 20px;
     height: 55px;
-    width: 25%;
+    width: 35%;
     text-align: center;
     color: white;
     background-color: #23A6F0;
     align-content: center;
+    font-size: 20px;
 }
 #btn3{
     border-radius: 20px;
     height: 55px;
-    width: 25%;
+    width: 35%;
     text-align: center;
     color: white;
     background-color: #23A6F0;
     align-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#student{
+  height: 110px;
+  width: 120px;
 }
