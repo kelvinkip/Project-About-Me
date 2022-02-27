@@ -216,7 +216,7 @@ body {
 .contacts{
     /* height: 60%;
     width: 100%; */
-    background-color: green;
+    background-color: whitesmoke;
     display: flex;
     justify-content: space-around;
 }
@@ -230,5 +230,11 @@ body {
 } */
 .phone{
     font-size: 25px;
-    color: white;
+    color: brown;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    background-color: brown;
 }
